@@ -11,16 +11,34 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border-radius: 5px 5px 0px 0px;
         }
 
         td, th{
             border: 1px solid black;
             padding: 10px;
+            
         }
 
         thead, tfoot{
             background-color: darkcyan;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: darkcyan;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         .num{
@@ -45,11 +63,10 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <tr>
-                <th>Estado</th>
-                <th>População</th>
-            </tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
         </thead>
         <tbody>
             <tr>
@@ -162,11 +179,27 @@
             </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <th>Total de Habitantes</th>
-                <td class="num2"><strong>203 062 512</strong></td>
-            </tr>
+            <th scope="row">Total de Habitantes</th>
+             <td class="num2"><strong>203 062 512</strong></td>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maiores quisquam a exercitationem veritatis quo deserunt architecto, repellat blanditiis iusto, repudiandae non atque aliquam, amet libero! Eaque debitis dolore veritatis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem a, ipsum eveniet quibusdam facere provident aliquid in quod saepe ea. Natus fuga quisquam, minus minima incidunt suscipit quasi delectus.</p>
 </body>
 </html>
